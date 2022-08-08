@@ -1,9 +1,9 @@
 # Portfolio
-![GitHub All Releases](https://img.shields.io/github/last-commit/Yangerhardt/Alura_Immersion?logo=GitHub)
+![GitHub All Releases](https://img.shields.io/github/last-commit/Yangerhardt/portfolio?logo=GitHub)
 
 ![](https://github.com/Yangerhardt/portfolio/blob/main/Animation.gif)
 
-Built entirely using HTML and CSS. 
+Portfolio built with HTML, CSS and Javascript. 
 
 
 ## Author

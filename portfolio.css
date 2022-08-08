@@ -1,5 +1,7 @@
 :root {
-  --backgroundColor: rgb(113, 140, 153);
+  --text-color: black;
+  --background-color: #e2e7eb;
+  --profile-outiline: #718c99;
   --lineHeight: 2px;
   --fadeDuration: 2s;
   --lineFadeDelay: 8.5s;
@@ -8,10 +10,11 @@
 * {
   margin: 0;
   font-family: 'Source Code Pro', monospace;
+  color: var(--text-color);
 }
 
 body {
-  background: rgb(226, 231, 235);
+  background: var(--background-color);
 }
 
 .top-section {
@@ -30,38 +33,38 @@ body {
   object-position: right;
   border-radius: 100%;
   transition: transform 0.5s;
-  border: 1px solid var(--backgroundColor);
+  border: 1px solid var(--profile-outiline);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
   z-index: 1;
-  opacity: 0;
-  animation: fade 2s ease 6s forwards;
+/*   opacity: 0;
+  animation: fade 2s ease 6s forwards; */
 
   position: relative;
 }
 
 .top-section-left::before {
   content: "";
-  background-color: var(--backgroundColor);
+  background-color: var(--profile-outiline);
   width: 240px;
   height: 240px;
   border-radius: 100%;
   position: absolute;
   margin: -20px;
-  opacity: 0;
-  animation: fade 2s ease 8s forwards;
+/*   opacity: 0;
+  animation: fade 2s ease 8s forwards; */
 }
 
 .top-section-left::after {
   content: "";
-  background-color: rgb(226, 231, 235);
+  background-color: var(--background-color);
   width: 240px;
   height: 240px;
   border-radius: 100%;
   position: absolute;
   margin-left: -222px;
   margin-top: -20px;
-  opacity: 0;
-  animation: fade 2s ease 7s forwards;
+/*   opacity: 0;
+  animation: fade 2s ease 7s forwards; */
 }
 
 
@@ -76,20 +79,20 @@ body {
 }
 
 .top-line {
-  background-color: var(--backgroundColor);
+  background-color: var(--profile-outiline);
   width: 240px;
   height: 1px;
   position: absolute;
   z-index: 1;
   top: 8.2rem;
   margin-left: -20px;
-  opacity: 0;
-  animation: fade 2s ease 8s forwards, rotation 10000ms steps(360) 8s infinite;
+/*   opacity: 0;
+  animation: fade 2s ease 8s forwards, rotation 10000ms steps(360) 8s infinite; */
 }
 
 .top-line::before {
   content: "";
-  background: rgb(226, 231, 235);
+  background: var(--background-color);
   width: 220px;
   height: 1px;
   position: absolute;
@@ -97,6 +100,13 @@ body {
   margin-left: 10px;
 }
 
+#dark-mode {
+  height: 20px;
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  cursor: pointer;
+}
 
 .top-section-right {
   display: grid;
@@ -105,7 +115,7 @@ body {
 }
 
 .top-section-right span {
-  color: var(--backgroundColor);
+  color: var(--profile-outiline);
 }
 
 .top-section-icon {
@@ -133,9 +143,9 @@ body {
 
 .bottom-left {
   max-width: 220px;
-  opacity: 0;
+/*   opacity: 0;
   animation: fade 2s ease 7s forwards;
-  transition: margin 1s ease;
+  transition: margin 1s ease; */
 }
 
 .bottom-left h2 {
@@ -146,15 +156,15 @@ body {
 
 .bottom-left h2::after {
   content: "";
-  background-color: var(--backgroundColor);
+  background-color: var(--profile-outiline);
   height: var(--lineHeight);
   width: 70%;
   position: absolute;
   border-radius: 5px;
   bottom: -4px;
-  transform: scaleX(0);
+/*   transform: scaleX(0);
   animation: lineFadeIn 2s ease var(--lineFadeDelay) forwards;
-  transform-origin: left;
+  transform-origin: left; */
 }
 
 .bottom-left-text {
@@ -169,7 +179,7 @@ justify-content: center;
 }
 
 .resume-button {
-background-color: var(--backgroundColor);
+background-color: var(--profile-outiline);
 color: white;
 border: none;
 padding: 0.8em;
@@ -177,9 +187,9 @@ width: 150px;
 border-radius: 10px;
 margin: 30px 0 50px 0;
 font-size: 15px;
-cursor: pointer;
+/* cursor: pointer;
 box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
-transition: 0.4s ease;
+transition: 0.4s ease; */
 }
 
 .resume-button:hover {
@@ -188,8 +198,9 @@ transition: 0.4s ease;
 
 .bottom-right {
   margin-right: 50px;
-  opacity: 0;
-  animation: fade 2s ease 8s forwards;
+  max-width: 1300px;
+/*   opacity: 0;
+  animation: fade 2s ease 8s forwards; */
 }
 
 .bottom-right h2 {
@@ -199,16 +210,16 @@ transition: 0.4s ease;
 
 .bottom-right h2::after {
   content: "";
-  background-color: var(--backgroundColor);
+  background-color: var(--profile-outiline);
   height: var(--lineHeight);
   width: 180px;
   position: absolute;
   border-radius: 5px;
   bottom: -4px;
   left: 4px;
-  transform: scaleX(0);
+/*   transform: scaleX(0);
   animation: lineFadeIn 2s ease var(--lineFadeDelay) forwards;
-  transform-origin: left;
+  transform-origin: left; */
 }
 
 .first-project, .second-project, .third-project {
@@ -238,7 +249,7 @@ transition: 0.4s ease;
 .bottom-right hr {
   width: 30%;
   display: inline-block;
-  border: 1px solid var(--backgroundColor);
+  border: 1px solid var(--profile-outiline);
 }
 
 .project-divisor {
@@ -267,12 +278,12 @@ transition: 0.4s ease;
   bottom: 0;
   right: 0;
   left: 0;
-  background-color: rgb(226, 231, 235);
-  position: absolute;
-  animation: typewriter 4s steps(22) 0.5s forwards;
+  background-color: var(--background-color);
+/*   position: absolute;
+  animation: typewriter 4s steps(22) 0.5s forwards; */
 }
 
-.top-section-right h1::after {
+/* .top-section-right h1::after {
   width: 5px;
   background: black;
   animation: typewriter 4s steps(22) 0.5s forwards,
@@ -295,7 +306,7 @@ transition: 0.4s ease;
   transform: translateY(3rem);
   opacity: 0;
   animation: fadeIn var(--fadeDuration) ease 6s forwards;
-}
+} */
 
 @keyframes typewriter {
   from {right: 0%;}
@@ -420,6 +431,9 @@ transition: 0.4s ease;
 }
 
 @media (min-width: 1201px) {
+  .bottom-left {
+    margin-left: 10%;
+  }
   .first-project .project-image:hover {
     transform: scale(3) translateY(2em);
     margin-right: 12em;
@@ -439,5 +453,29 @@ transition: 0.4s ease;
 @media (min-width: 1300px) {
   .bottom-left {
     margin-left: 10%;
+  }
+  .top-section-right {
+    width: 80%;
+  }
+  .top-section-left {
+    margin-left: 12%;
+  }
+}
+
+@media (min-width: 2000px) {
+  .top-section-left {
+    margin-left: 26%;
+  }
+  .top-section-right {
+    margin-right: 450px;
+  }
+  .bottom-left {
+    margin-left: 25%;
+  }
+  .bottom-right {
+    max-width: 1000px;
+  }
+  .bottom {
+    column-gap: 2%;
   }
 }

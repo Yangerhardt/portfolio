@@ -1,3 +1,6 @@
+@import url(bootstrap.css);
+
+
 :root {
   --text-color: black;
   --background-color: #e2e7eb;
@@ -36,8 +39,8 @@ body {
   border: 1px solid var(--profile-outiline);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
   z-index: 1;
-/*   opacity: 0;
-  animation: fade 2s ease 6s forwards; */
+  opacity: 0;
+  animation: fade 2s ease 6s forwards;
 
   position: relative;
 }
@@ -50,8 +53,8 @@ body {
   border-radius: 100%;
   position: absolute;
   margin: -20px;
-/*   opacity: 0;
-  animation: fade 2s ease 8s forwards; */
+  opacity: 0;
+  animation: fade 2s ease 8s forwards;
 }
 
 .top-section-left::after {
@@ -63,8 +66,8 @@ body {
   position: absolute;
   margin-left: -222px;
   margin-top: -20px;
-/*   opacity: 0;
-  animation: fade 2s ease 7s forwards; */
+  opacity: 0;
+  animation: fade 2s ease 7s forwards;
 }
 
 
@@ -86,8 +89,8 @@ body {
   z-index: 1;
   top: 8.2rem;
   margin-left: -20px;
-/*   opacity: 0;
-  animation: fade 2s ease 8s forwards, rotation 10000ms steps(360) 8s infinite; */
+  opacity: 0;
+  animation: fade 2s ease 8s forwards, rotation 10000ms steps(360) 8s infinite;
 }
 
 .top-line::before {
@@ -143,9 +146,9 @@ body {
 
 .bottom-left {
   max-width: 220px;
-/*   opacity: 0;
+  opacity: 0;
   animation: fade 2s ease 7s forwards;
-  transition: margin 1s ease; */
+  transition: margin 1s ease;
 }
 
 .bottom-left h2 {
@@ -162,9 +165,9 @@ body {
   position: absolute;
   border-radius: 5px;
   bottom: -4px;
-/*   transform: scaleX(0);
+  transform: scaleX(0);
   animation: lineFadeIn 2s ease var(--lineFadeDelay) forwards;
-  transform-origin: left; */
+  transform-origin: left;
 }
 
 .bottom-left-text {
@@ -187,9 +190,9 @@ width: 150px;
 border-radius: 10px;
 margin: 30px 0 50px 0;
 font-size: 15px;
-/* cursor: pointer;
+cursor: pointer;
 box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
-transition: 0.4s ease; */
+transition: 0.4s ease;
 }
 
 .resume-button:hover {
@@ -199,8 +202,8 @@ transition: 0.4s ease; */
 .bottom-right {
   margin-right: 50px;
   max-width: 1300px;
-/*   opacity: 0;
-  animation: fade 2s ease 8s forwards; */
+  opacity: 0;
+  animation: fade 2s ease 8s forwards;
 }
 
 .bottom-right h2 {
@@ -217,9 +220,9 @@ transition: 0.4s ease; */
   border-radius: 5px;
   bottom: -4px;
   left: 4px;
-/*   transform: scaleX(0);
+  transform: scaleX(0);
   animation: lineFadeIn 2s ease var(--lineFadeDelay) forwards;
-  transform-origin: left; */
+  transform-origin: left;
 }
 
 .first-project, .second-project, .third-project {
@@ -279,11 +282,11 @@ transition: 0.4s ease; */
   right: 0;
   left: 0;
   background-color: var(--background-color);
-/*   position: absolute;
-  animation: typewriter 4s steps(22) 0.5s forwards; */
+  position: absolute;
+  animation: typewriter 4s steps(22) 0.5s forwards;
 }
 
-/* .top-section-right h1::after {
+.top-section-right h1::after {
   width: 5px;
   background: black;
   animation: typewriter 4s steps(22) 0.5s forwards,
@@ -306,7 +309,7 @@ transition: 0.4s ease; */
   transform: translateY(3rem);
   opacity: 0;
   animation: fadeIn var(--fadeDuration) ease 6s forwards;
-} */
+}
 
 @keyframes typewriter {
   from {right: 0%;}

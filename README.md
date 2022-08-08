@@ -3,7 +3,7 @@
 
 ![](https://github.com/Yangerhardt/portfolio/blob/main/Animation.gif)
 
-Built entirely using HTML and CSS. 
+Portfolio built with HTML, CSS and Javascript. 
 
 
 ## Author

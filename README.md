@@ -5,6 +5,9 @@
 
 Portfolio built with HTML, CSS and Javascript. 
 
+## Acknowledgements
+- [You can acess my portfolio with this link](https://yangerhardt.github.io/portfolio/)
+
 
 ## Author
 

@@ -1,0 +1,10 @@
+:root {
+    --text-color: black;
+    --background-color: #e2e7eb;
+    --profile-outiline: #718c99;
+    --lineHeight: 2px;
+    --fadeDuration: 2s;
+    --lineFadeDelay: 8.5s;
+    --btn-pt-br : #e2e7eb;
+    --btn-en-us: #718c99;
+  }

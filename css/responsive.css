@@ -1,0 +1,126 @@
+@media (max-width: 800px) {
+    body {
+      margin-bottom: 100px;
+    }
+    .top-section {
+      flex-direction: column;
+    }
+    .top-section-right {
+      text-align: center;
+      margin: 1em 1em;
+    }
+    .bottom {
+      flex-direction: column;
+    }
+    .bottom-left {
+      max-width: 90%;
+    }
+    .bottom-right h2, .bottom-left-text, .project-description {
+      text-align: center;
+    }
+    .bottom-right h2::after {
+      left: 39%;
+    }
+    .first-project, .second-project, .third-project {
+      flex-direction: column;
+    }
+    .project-image {
+      max-width: 350px;
+      margin-left: 40px;
+    }
+    .second-project {
+      margin-left: 0;
+    }
+    .first-project .project-description, .third-project .project-description {
+      margin-bottom: 20px;
+    }
+    .second-project .project-description {
+      margin-top: 20px;
+    }
+    .bottom-right h2::after {
+      width: 70%;
+      left: 15%
+    }
+    .top-section-right h1 {
+      font-size: 20px;
+    }
+    .top-section-right h3 {
+      font-size: 16px;
+    }
+    .top-section-right h4 {
+      font-size: 13px;
+    }
+    .order-1 {
+      order: 1;
+    }
+    .order-2 {
+      order: 2;
+    }
+  }
+  
+  @media (min-width: 801px) {
+    .first-project .project-image:hover {
+      transform: scale(2) translateY(1em);
+      margin-right: 6em;
+    }
+    
+    .second-project .project-image:hover {
+      transform: scale(1.6) translateX(-1em);
+      margin-left: 5em;
+    }
+    
+    .third-project .project-image:hover {
+      transform: scale(1.8) translateY(-1em);
+      margin-right: 5em;
+    }
+  }
+  
+  @media (min-width: 1201px) {
+    .bottom-left {
+      margin-left: 10%;
+    }
+    .first-project .project-image:hover {
+      transform: scale(3) translateY(2em);
+      margin-right: 12em;
+    }
+    
+    .second-project .project-image:hover {
+      transform: scale(2.2) translateX(-2em);
+      margin-left: 11em;
+    }
+    
+    .third-project .project-image:hover {
+      transform: scale(2.6) translateY(-2em);
+      margin-right: 9em;
+    }
+  }
+  
+  @media (min-width: 1300px) {
+    .bottom-left {
+      margin-left: 10%;
+    }
+    .top-section-right {
+      width: 80%;
+    }
+    .top-section-left {
+      margin-left: 12%;
+    }
+  }
+  
+  @media (min-width: 2000px) {
+    .top-section-left {
+      margin-left: 26%;
+    }
+    .top-section-right {
+      margin-right: 450px;
+    }
+    .bottom-left {
+      margin-left: 25%;
+    }
+    .bottom-right {
+      max-width: 1000px;
+    }
+    .bottom {
+      column-gap: 2%;
+    }
+  }

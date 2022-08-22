@@ -26,7 +26,7 @@ pt_br.addEventListener('click', () => {
     document.querySelector('h4').innerHTML = "Bem-vindo ao meu <span>portfólio</span>!"
 
     document.querySelector('#about').innerHTML = "Sobre mim"
-    document.querySelector('.bottom-left-text').innerHTML = "Eu posso oferecer códigos limpos, e também maior interatividade com as animações. Um design responsivo fará o seu site se tornar acessível para todos, independentemente dos seus dispositivos."
+    document.querySelector('.bottom-left-text').innerHTML = "Eu sou formado em engenharia pela UFRGS. Há um tempo comecei a estudar programação e ela realmente me encantou. Posso oferecer códigos limpos, assim como maior interatividade com as animações web."
     document.querySelector('#resume').innerHTML = "Currículo"
 
     document.querySelector('#projects').innerHTML = "Projetos"
@@ -47,7 +47,7 @@ en_us.addEventListener('click', () => {
     document.querySelector('h4').innerHTML = "Welcome to my <span>portfolio</span>!"
 
     document.querySelector('#about').innerHTML = "About me"
-    document.querySelector('.bottom-left-text').innerHTML = "I can provide clean code, and also provided more interactive with web animations. A responsive design will make your website acessible to all user, regardless of their devices."
+    document.querySelector('.bottom-left-text').innerHTML = "      I am an engineer graduate from UFRGS. A while ago I started studying programming and it really enchanted me. I can provide clean code, as well as more interactive with web animations."
     document.querySelector('#resume').innerHTML = "Resume"
     
     document.querySelector('#projects').innerHTML = "Projects"

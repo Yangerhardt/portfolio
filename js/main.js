@@ -26,7 +26,7 @@ pt_br.addEventListener('click', () => {
     document.querySelector('h4').innerHTML = "Bem-vindo ao meu <span>portfólio</span>!"
 
     document.querySelector('#about').innerHTML = "Sobre mim"
-    document.querySelector('.bottom-left-text').innerHTML = "Eu sou formado em engenharia pela UFRGS. Há um tempo comecei a estudar programação e ela realmente me encantou. Posso oferecer códigos limpos, assim como maior interatividade com as animações web."
+    document.querySelector('.bottom-left-text').innerHTML = "Eu sou formado em engenharia pela UFRGS. Há um tempo comecei a estudar programação e ela realmente me encantou. Posso oferecer códigos limpos e funcionais, assim como maior interatividade com as animações web."
     document.querySelector('#resume').innerHTML = "Currículo"
 
     document.querySelector('#projects').innerHTML = "Projetos"
@@ -34,6 +34,7 @@ pt_br.addEventListener('click', () => {
     document.querySelector('#proj-2').innerHTML = "Parte da Imersão Dados da Escola Alura, criado para introduzir os alunso na análise de dados e data science. Totalmente criado utilizando o Pandas do Python. Todos as etapas do projeto estão comentados no GitHub."
     document.querySelector('#proj-3').innerHTML = "Um dos meus primeiros projetos utilizando Python. Extremamente bom para a prática de orientação ao objeto. Optei pela criação de classes e métodos para cada uma das etapas a fim de clarear o código e praticar."
     document.querySelector('#proj-4').innerHTML = "Tanto a calculadora quanto o cronômetro foram desenvolvidos utilizando Javascript. O design simplista foi feito utilizando HTML e CSS."
+    document.querySelector('#proj-5').innerHTML = "Criado para melhor entendimento sobre o localStorage e as suas particularidades. Embora o design seja simples, funciona perfeitamente para o armazenamento de itens."
 
     document.querySelector('.resume-button').innerHTML = "Currículo"
 })
@@ -55,6 +56,7 @@ en_us.addEventListener('click', () => {
     document.querySelector('#proj-2').innerHTML = "Part of the Alura Data Immersion, designed to induce students into data science and data analysis. Fully created using Python Pandas. All the project steps are commented on my GitHub."
     document.querySelector('#proj-3').innerHTML = "One of my first projects using Python. Extremely good project to practice OOP. I chose to create classes and methods for each step to make the code more clear and also to practice. "
     document.querySelector('#proj-4').innerHTML = "Both calculator and cronometer were created usign Javascript. The simplistic design was made using HTML and CSS."
+    document.querySelector('#proj-5').innerHTML = "Created for better understanding of localStorage and it's specificities. Though the design is pretty simple, it work's effectively as an item storage."
 
     document.querySelector('.resume-button').innerHTML = "Resume"
 

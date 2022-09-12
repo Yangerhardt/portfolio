@@ -30,18 +30,22 @@ pt_br.addEventListener("click", () => {
 
   document.querySelector("#about").innerHTML = "Sobre mim";
   document.querySelector(".bottom-left-text").innerHTML =
-    "Sou formado em engenharia pela UFRGS. Há um tempo comecei a estudar programação e ela realmente me encantou. Posso oferecer códigos limpos e funcionais, assim como maior interatividade com as animações web.";
+    "Sou formado em engenharia pela UFRGS. Há um tempo comecei a estudar programação e ela realmente me encantou, então decidi me dedicar a isso. Comecei estudando Python, mas o que realmente me atraiu o olho foi o Front-End, então hoje direicono meus estudos para ele.";
   document.querySelector("#resume").innerHTML = "Currículo";
 
   document.querySelector("#projects").innerHTML = "Projetos";
   document.querySelector("#proj-1").innerHTML =
-    "O objetivo era de criar uma landing page para introduzir a marca e os seus produtos. Desenvolvido para ser totalmente responsivo. Foi criado utilizando Javascript, Bootstrap, HTMl e CSS";
+    "O objetivo era de criar uma landing page para introduzir a marca e os seus produtos. Além disso, deveria conter informações sobre a personalização dos produtos e um carrossel com amostras de imagens dos produtos. Desenvolvido para ser totalmente responsivo. Foi criado utilizando Javascript, Bootstrap, HTMl e CSS";
   document.querySelector("#proj-4").innerHTML =
     "Tanto a calculadora quanto o cronômetro serviram como projetos piloto para melhor entendimento da linguagem Javascript. O objetivo era de criar as funcionalidades usando somente o JS e entender como ela funciona para o Back-end.";
   document.querySelector("#proj-5").innerHTML =
-    "Criado para melhor entendimento do armazenamento de dados no navegador e como acessá-lo. O design minimalista foi criado utilizando HTML e CSS. O armazenamento e acesso aos dados de input foram feitos utilizando o vanilla Javascript.";
+   `Projetado para funcionar como um controlador de fluxo de entrada e saída de dinheiro, tornando
+    possível adicionar e remover qualquer transação. Todos os dados são
+    armazenado no navegador, para que não seja perdido quando a página é atualizada.
+     Foi totalmente desenvolvido com Javascript e estilizado com HTML
+    e CSS.`;
   document.querySelector("#proj-2").innerHTML =
-    "Parte da <strong>Imersão Dados da Alura</strong>, criada para introduzir como a linguagem Python é utilizada para análise de dados e nos apresentar um caso real para trabalhar. Foi desenvolvido utilizando a biblioteca Pandas do Python.";
+    "Parte da Imersão Dados da Alura, criada para introduzir como a linguagem Python é utilizada para análise de dados e nos apresentar um caso real para trabalhar. Foi desenvolvido utilizando a biblioteca Pandas do Python.";
   document.querySelector("#proj-3").innerHTML =
     "O objetivo era de praticar a POO (Programaç~ão Orientada ao Objeto) e criar um útil e bem conhecido jogo, o jogo da forca. Totalmente criado utiliazndo Python.";
 
@@ -60,19 +64,31 @@ en_us.addEventListener("click", () => {
     "Welcome to my <span>portfolio</span>!";
 
   document.querySelector("#about").innerHTML = "About me";
-  document.querySelector(".bottom-left-text").innerHTML =
-    "      I am an engineer graduate from UFRGS. A while ago I started studying programming and it really enchanted me. I can provide clean code, as well as more interactive with web animations.";
+  document.querySelector(
+    ".bottom-left-text"
+  ).innerHTML = `I am an engineer graduated from UFRGS. A while ago I started studying
+    programming and it really enchanted me, so I decided to go for it. I
+    started studying Python, but what really caught my eye was the
+    Front-End, so now I direct my studies towards it.`;
   document.querySelector("#resume").innerHTML = "Resume";
 
   document.querySelector("#projects").innerHTML = "Projects";
-  document.querySelector("#proj-1").innerHTML =
-    "Designed to introduce the brand Patchwork com Arte. Created to be fully responsive and built using Bootstrap, Javascript, HTML and CSS.";
+  document.querySelector(
+    "#proj-1"
+  ).innerHTML = `The goal was to create a landing page to introduce a brand and
+    it's products. Also, it should contain infos about product
+    personalization and some carrousel with samples of the products. It
+    was designed to be fully responsive and was created using
+    Javascript, Bootstrap, HTMl and CSS.`;
   document.querySelector("#proj-2").innerHTML =
     "Part of the Alura Data Immersion, designed to induce students into data science and data analysis. Fully created using Python Pandas. All the project steps are commented on my GitHub.";
   document.querySelector("#proj-3").innerHTML =
     "One of my first projects using Python. Extremely good project to practice OOP. I chose to create classes and methods for each step to make the code more clear and also to practice. ";
   document.querySelector("#proj-4").innerHTML =
-    "Both calculator and cronometer were created usign Javascript. The simplistic design was made using HTML and CSS.";
+    `Both calculator and cronometer served as pilot projects for better
+    understanding of Javascript. The goal here was to create there
+    functionalities using only JS and see how it works for the
+    Back-End.`;
   document.querySelector("#proj-5").innerHTML =
     "Created for better understanding of localStorage and it's specificities. Though the design is pretty simple, it work's effectively as an item storage.";
 

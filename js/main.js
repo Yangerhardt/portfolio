@@ -47,7 +47,7 @@ pt_br.addEventListener("click", () => {
   document.querySelector("#proj-2").innerHTML =
     "Parte da Imersão Dados da Alura, criada para introduzir como a linguagem Python é utilizada para análise de dados e nos apresentar um caso real para trabalhar. Foi desenvolvido utilizando a biblioteca Pandas do Python.";
   document.querySelector("#proj-3").innerHTML =
-    "O objetivo era de praticar a POO (Programaç~ão Orientada ao Objeto) e criar um útil e bem conhecido jogo, o jogo da forca. Totalmente criado utiliazndo Python.";
+    "O objetivo era de praticar a POO (Programação Orientada ao Objeto) e criar um útil e bem conhecido jogo, o jogo da forca. Totalmente criado utilizando Python.";
 
   document.querySelector(".resume-button").innerHTML = "Currículo";
 });

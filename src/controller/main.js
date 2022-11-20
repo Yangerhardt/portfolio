@@ -5,12 +5,12 @@ function dark() {
     document.documentElement.style.setProperty("--background-color", "#696969");
     document.documentElement.style.setProperty("--text-color", "#BEBEBE");
     document.getElementById("dark-mode").src =
-      "/portfolio/Icons/light-mode.png";
+      "../../src/public/icons/light-mode.png";
     c++;
   } else {
     document.documentElement.style.setProperty("--background-color", "#e2e7eb");
     document.documentElement.style.setProperty("--text-color", "#black");
-    document.getElementById("dark-mode").src = "/portfolio/Icons/dark-mode.png";
+    document.getElementById("dark-mode").src = "../../src/public/icons/dark-mode.png";
     c++;
   }
 }

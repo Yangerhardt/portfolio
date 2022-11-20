@@ -59,11 +59,6 @@
     animation: fade 2s ease 7s forwards;
   }
   
-  
-  .profile-image:hover {
-    transform: scale(1.2);
-  }
-  
   .top-section-left, .bottom {
     margin-left: 1rem;
     margin-top: 2rem;

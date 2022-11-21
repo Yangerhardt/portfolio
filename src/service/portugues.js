@@ -22,14 +22,7 @@ const portugues = () => {
     "#proj-5"
   ).innerHTML = `Projetado para funcionar como um controlador de fluxo de entrada e saída de dinheiro, tornando
       possível adicionar e remover qualquer transação. Todos os dados são
-      armazenado no navegador, para que não seja perdido quando a página é atualizada.
-       Foi totalmente desenvolvido com Javascript e estilizado com HTML
-      e CSS.`;
-  document.querySelector("#proj-2").innerHTML =
-    "Parte da Imersão Dados da Alura, criada para introduzir como a linguagem Python é utilizada para análise de dados e nos apresentar um caso real para trabalhar. Foi desenvolvido utilizando a biblioteca Pandas do Python.";
-  document.querySelector("#proj-3").innerHTML =
-    "O objetivo era de praticar a POO (Programação Orientada ao Objeto) e criar um útil e bem conhecido jogo, o jogo da forca. Totalmente criado utilizando Python.";
-
+      armazenado no navegador, para que não seja perdido quando a página é atualizada.`;
   document.querySelector(".resume-button").innerHTML = "Currículo";
 };
 

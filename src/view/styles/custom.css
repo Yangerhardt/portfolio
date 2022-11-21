@@ -9,6 +9,10 @@ body {
   margin-top: 50px;
 }
 
+.escondido {
+  opacity: 0;
+}
+
 .top-section {
   display: flex;
   align-items: center;
@@ -287,8 +291,21 @@ body {
   transform-origin: left;
 }
 
-.first-project,
-.second-project,
+.project-infos {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-infos > h3 {
+  margin: 0 16px 8px 16px;
+}
+.span-open-modal {
+  color: var(--profile-outiline);
+  cursor: pointer;
+}
+
+.project-left,
+.project-right,
 .third-project {
   display: flex;
   align-items: center;
@@ -301,15 +318,20 @@ body {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
   border-radius: 7px;
   cursor: pointer;
-  transition: 0.5s ease;
+  transition: 0.2s ease;
   z-index: 100;
 }
 
-.first-project .project-image {
+.project-image:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+
+}
+
+.project-left .project-image {
   margin-top: 30px;
 }
 
-.second-project {
+.project-right {
   margin-left: 2em;
 }
 
@@ -452,6 +474,17 @@ body {
   padding: 4px 8px;
   margin-right: 16px;
   border-radius: 4px;
+}
+
+.modal-redireciona-proj {
+  color: var(--profile-outiline);
+  display: block;
+  text-align: end;
+  margin: 8px 16px 0 0;
+}
+
+.modal-descricao-projeto {
+  width: 95%;
 }
 
 @keyframes typewriter {

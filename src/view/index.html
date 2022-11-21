@@ -141,19 +141,51 @@
       <!--RIGHT SECTION-->
       <div class="bottom-right">
         <h2 id="projects">Projects</h2>
+
+        <div class="project-left" data-name="Controle de Gastos">
+          <a href="#">
+            <img
+              data-name="hackathon"
+              class="project-image"
+              src="../../src/public/images/hackathon-homepage.png"
+              alt="controle de gastos image" />
+          </a>
+          <div class="project-infos">
+            <h3>Orange Evolution 2.0</h3>
+            <div class="project-description" id="proj-5">
+              Project developed during the Hackathon of the Training Program of
+              FCamara and Orange Juice. The problem presented was to create an
+              available study trail organization platform: Fullstacks, QA and
+              UX/UI. For this, we work together with the UX/UI to understand the
+              pains of users and thus model a better project.
+              <br /><span class="span-open-modal">See more</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-divisor">
+          <hr />
+          <div>//</div>
+          <hr />
+        </div>
+
         <div class="bottom-right-projects">
-          <div class="second-project" data-name="Patchwork com Arte">
-            <div class="project-description order-2" id="proj-1">
-              The goal was to create a landing page to introduce a brand and
-              it's products. Also, it should contain infos about product
-              personalization and some carrousel with samples of the products.
-              It was designed to be fully responsive and was created using
-              Javascript, Bootstrap, HTMl and CSS.
+          <div class="project-right" data-name="Patchwork com Arte">
+            <div class="project-infos">
+              <h3>Patchwork com Arte</h3>
+              <div class="project-description order-2" id="proj-1">
+                The goal was to create a landing page to introduce a brand and
+                it's products. Also, it should contain infos about product
+                personalization and some carrousel with samples of the products.
+                Eventually, it would become a functional e-commerce webpage,
+                with registration, login and checkout
+                <br /><span class="span-open-modal">See more</span>
+              </div>
             </div>
             <a href="#">
               <img
+                data-name="patchwork-com-arte"
                 class="project-image order-1"
-                src="../../src/public/projects/patchwork-com-arte2.png"
+                src="../../src/public/images/patchwork-com-arte2.png"
                 alt="Patchwork com Arte image" />
             </a>
           </div>
@@ -163,40 +195,25 @@
             <hr />
           </div>
 
-          <div class="first-project" data-name="Controle de Gastos">
+          <div class="project-left" data-name="Controle de Gastos">
             <a href="#">
               <img
+                data-name="controle-gastos"
                 class="project-image"
-                src="../../src/public/projects/controle-gastos.png"
+                src="../../src/public/images/controle-gastos.png"
                 alt="controle de gastos image" />
             </a>
-            <div class="project-description" id="proj-5">
-              Desgined to work as a monye inflow and outflow controller, making
-              possible to add and remove any transaction. All the data is
-              storaged in the browser, so that it's not lost when the page is
-              refreshed. It was fully developped with Javascript and desgined
-              with HTMl and CSS.
+            <div class="project-infos">
+              <h3>Controle de gastos</h3>
+              <div class="project-description" id="proj-5">
+                Desgined to work as a monye inflow and outflow controller,
+                making possible to add and remove any transaction. All the data
+                is storaged in the browser, so that it's not lost when the page
+                is refreshed. <br /><span class="span-open-modal"
+                  >See more</span
+                >
+              </div>
             </div>
-          </div>
-          <div class="project-divisor">
-            <hr />
-            <div>//</div>
-            <hr />
-          </div>
-
-          <div class="second-project" data-name="Teste">
-            <div class="project-description order-2" id="proj-4">
-              Both calculator and cronometer served as pilot projects for better
-              understanding of Javascript. The goal here was to create there
-              functionalities using only JS and see how it works for the
-              Back-End.
-            </div>
-            <a href="#">
-              <img
-                class="project-image"
-                src="../../src/public/projects/Projetos-Js2.png"
-                alt="Calculadora image" />
-            </a>
           </div>
         </div>
         <!--RIGHT SECTION-->
@@ -207,36 +224,65 @@
     <!--MODAL-->
     <dialog id="modal-projetos">
       <div class="carousel" data-carousel>
-        <button class="carousel-button prev" data-carousel-button="prev">&#8656;</button>
-        <button class="carousel-button next" data-carousel-button="next">&#8658;</button>
+        <button class="carousel-button prev" data-carousel-button="prev">
+          &#8656;
+        </button>
+        <button class="carousel-button next" data-carousel-button="next">
+          &#8658;
+        </button>
         <section aria-label="Imagens dos projetos">
           <ul data-slides>
             <li class="slide" data-active>
-              <img src="../../src/public/projects/alura-immersion-profile.png" alt="Imagem do projeto">
+              <img
+                src="../../src/public/images/hackathon0.png"
+                alt="Imagem do projeto"
+                class="modal-img" />
             </li>
             <li class="slide">
-              <img src="../../src/public/projects/alura-immersion-profile2.png" alt="Imagem do projeto">
+              <img
+                src="../../src/public/images/hackathon1.png"
+                alt="Imagem do projeto"
+                class="modal-img" />
             </li>
             <li class="slide">
-              <img src="../../src/public/projects/alura-immersion-profile.png" alt="Imagem do projeto">
+              <img
+                src="../../src/public/images/hackathon2.png"
+                alt="Imagem do projeto"
+                class="modal-img" />
             </li>
             <li class="slide">
-              <img src="../../src/public/projects/alura-immersion-profile2.png" alt="Imagem do projeto">
+              <img
+                src="../../src/public/images/hackathon3.png"
+                alt="Imagem do projeto"
+                class="modal-img" />
             </li>
           </ul>
         </section>
       </div>
       <h2 class="nome-projeto-modal">Título do projeto</h2>
       <ul class="stack-list">
-        <li class="stack">Javascript</li>
-        <li class="stack">Boostrap</li>
-        <li class="stack">HTML</li>
-        <li class="stack">CSS</li>
+        <li class="stack stack-1">Javascript</li>
+        <li class="stack stack-2">Boostrap</li>
+        <li class="stack stack-3">HTML</li>
+        <li class="stack stack-4">CSS</li>
+        <li class="stack stack-5">Node.Js</li>
+        <li class="stack stack-6">Express</li>
+        <li class="stack stack-7">Jest</li>
+        <li class="stack stack-8">Heroku</li>
       </ul>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
-        nostrum expedita accusantium provident eveniet nobis.
+      <p class="modal-descricao-projeto">
+        Projeto desenvolvido durante o Hackathon do Programa de Formação da
+        FCamara e da Orange Juice. A problemática apresentada foi de criar uma
+        plataforma de organização das trilhas de estudo disponíveis: Fullstacks,
+        QA e UX/UI. Para isso, trabalhamos em conjunto com a UX/UI para entender
+        as dores dos usuários e, assim, modelar um projeto melhor.
       </p>
+      <a
+        href="https://github.com/orgs/Hackaton-Squad-22/repositories"
+        class="modal-redireciona-proj"
+        target="_blank"
+        >Ver projeto
+      </a>
       <button class="fechar-modal">x</button>
     </dialog>
     <!--MODAL-->

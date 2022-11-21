@@ -1,3 +1,4 @@
+import carousel from "../service/carousel.js";
 import darkFunction from "../service/darkFunction.js";
 import ingles from "../service/ingles.js";
 import modalProjetos from "../service/modalProjetos.js";
@@ -23,3 +24,4 @@ en_us.addEventListener("click", () => {
 
 modalProjetos()
 
+carousel()

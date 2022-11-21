@@ -344,16 +344,17 @@ body {
   box-shadow: 0 0 1em rgba(0, 0, 0, 0.3);
   margin: auto;
   position: relative;
+  background-color: var(--background-color);
 }
 
-#modal-projetos h2{
+#modal-projetos h2 {
   font-family: var(--fonteFamilyTitulo);
   font-size: 32px;
 }
 
 #modal-projetos::backdrop,
 #modal-editar::backdrop {
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.45);
 }
 
 .fechar-modal {
@@ -364,10 +365,93 @@ body {
   background-color: #fff;
   font-size: 18px;
   cursor: pointer;
+  border-radius: 50%;
 }
 
-.imagem-projeto-modal {
-  width: 70%;
+.carousel {
+  width: 700px;
+  height: 450px;
+  position: relative;
+  margin: 0 auto 16px auto;
+}
+
+.carousel > ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.slide {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: 200ms opacity ease-in-out;
+  transition-delay: 200ms;
+  list-style: none;
+}
+
+.slide > img {
+  display: inline-block;
+  height: 450px;
+  width: calc(100% - 30px);
+  object-fit: cover;
+  object-position: center;
+  border-radius: 24px;
+}
+
+.slide[data-active] {
+  opacity: 1;
+  z-index: 1;
+  transition-delay: 0ms;
+}
+
+.carousel-button {
+  position: absolute;
+  background-color: none;
+  border: none;
+  font-size: 2rem;
+  top: 50%;
+  z-index: 2;
+  transform: translateY(-50%);
+  color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  border-radius: 0.25rem;
+  padding: 0 0.5rem;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.carousel-button:hover,
+.carousel-button:focus {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.carousel-button:focus {
+  outline: 1px solid black;
+}
+
+.carousel-button.prev {
+  left: 1rem;
+}
+
+.carousel-button.next {
+  right: calc(1rem + 30px);
+}
+
+.stack-list {
+  display: flex;
+  align-items: flex-start;
+  list-style: none;
+  padding: 0;
+  margin: 8px 4px 16px 4px;
+}
+
+.stack {
+  color: #fff;
+  background-color: var(--profile-outiline);
+  padding: 4px 8px;
+  margin-right: 16px;
+  border-radius: 4px;
 }
 
 @keyframes typewriter {
@@ -430,10 +514,9 @@ body {
 @keyframes posFixed {
   0% {
     position: fixed;
-
   }
   100% {
-    position: static
+    position: static;
   }
 }
 

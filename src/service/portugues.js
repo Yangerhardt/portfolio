@@ -4,7 +4,7 @@ const portugues = () => {
 
   document.querySelector("h1").innerHTML = "Olá, meu nome é <span>Yan</span>.";
   document.querySelector("h3").innerHTML =
-    "Sou um Desenvolvedor <span>Front-End</span> Junior.";
+    "Sou um Desenvolvedor <span>Front-End</span>.";
   document.querySelector("h4").innerHTML =
     "Bem-vindo ao meu <span>portfólio</span>!";
 

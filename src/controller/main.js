@@ -1,5 +1,6 @@
 import darkFunction from "../service/darkFunction.js";
 import ingles from "../service/ingles.js";
+import modalProjetos from "../service/modalProjetos.js";
 import portugues from "../service/portugues.js";
 
 const darkMode = document.querySelector("#dark-mode");
@@ -19,3 +20,6 @@ pt_br.addEventListener("click", () => {
 en_us.addEventListener("click", () => {
   ingles();
 });
+
+modalProjetos()
+

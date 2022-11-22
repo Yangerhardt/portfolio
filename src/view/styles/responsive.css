@@ -1,95 +1,139 @@
-@media (max-width: 800px) {
-    body {
-      margin-bottom: 100px;
-    }
-    .top-section {
-      flex-direction: column;
-    }
-    .top-section-right {
-      text-align: center;
-      margin: 1em 1em;
-    }
-    .bottom {
-      flex-direction: column;
-    }
-    .bottom-left {
-      max-width: 90%;
-    }
-    .bottom-right h2, .bottom-left-text, .project-description {
-      text-align: center;
-    }
-    .bottom-right h2::after {
-      left: 39%;
-    }
-    .project-left, .project-right {
-      flex-direction: column;
-    }
-    .project-image {
-      max-width: 350px;
-      margin-left: 40px;
-    }
-    .project-right {
-      margin-left: 0;
-    }
-    .project-left .project-description {
-      margin-bottom: 20px;
-    }
-    .project-right .project-description {
-      margin-top: 20px;
-    }
-    .bottom-right h2::after {
-      width: 70%;
-      left: 15%
-    }
-    .top-section-right h1 {
-      font-size: 20px;
-    }
-    .top-section-right h3 {
-      font-size: 16px;
-    }
-    .top-section-right h4 {
-      font-size: 13px;
-    }
-    .order-1 {
-      order: 1;
-    }
-    .order-2 {
-      order: 2;
-    }
+@media (max-width: 700px) {}
+
+
+@media (max-width: 750px) {
+  .bottom-left-text {
+    flex-wrap: wrap;
   }
-  
-  @media (min-width: 1201px) {
-    .bottom-left {
-      margin-left: 10%;
-    }
+}
+
+@media (max-width: 900px) {
+  #modal-projetos {
+    min-width: 40ch;
+    max-width: 60ch;
+    max-height: 80%;
   }
-  
-  @media (min-width: 1300px) {
-    .bottom-left {
-      margin-left: 10%;
-    }
-    .top-section-right {
-      width: 80%;
-    }
-    .top-section-left {
-      margin-left: 12%;
-    }
+  .carousel {
+    width: 500px;
+    height: 400px;
+    position: relative;
+    margin: 0 auto 16px auto;
   }
-  
-  @media (min-width: 1600px) {
-    .top-section-left {
-      margin-left: 26%;
-    }
-    .top-section-right {
-      margin-right: 450px;
-    }
-    .bottom-left {
-      margin-left: 25%;
-    }
-    .bottom-right {
-      max-width: 1000px;
-    }
-    .bottom {
-      column-gap: 2%;
-    }
+  .slide > img {
+    height: 400px;
   }
+}
+
+@media (max-width: 1000px) {
+  body {
+    margin-bottom: 100px;
+  }
+  .top-section {
+    flex-direction: column;
+  }
+  .top-section-right {
+    text-align: center;
+    margin: 1em 1em;
+  }
+  .bottom {
+    flex-direction: column;
+  }
+  .bottom-left {
+    max-width: 100%;
+  }
+  .bottom-left-text {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 24px auto;
+  }
+  .bottom-right h2,
+  .bottom-left-text,
+  .project-description,
+  .project-infos h3,
+  .span-open-modal {
+    text-align: center;
+  }
+  .span-open-modal {
+    margin-bottom: 16px;
+  }
+  .bottom-right h2::after {
+    left: 39%;
+  }
+  .project-left,
+  .project-right {
+    flex-direction: column;
+  }
+  .project-image {
+    max-width: 350px;
+    margin-left: 40px;
+  }
+  .project-right {
+    margin-left: 0;
+  }
+  .project-left .project-description {
+    margin-bottom: 20px;
+  }
+  .project-right .project-description {
+    margin-top: 20px;
+  }
+  .bottom-right h2::after {
+    width: 70%;
+    left: 15%;
+  }
+  .top-section-right h1 {
+    font-size: 20px;
+  }
+  .top-section-right h3 {
+    font-size: 16px;
+  }
+  .top-section-right h4 {
+    font-size: 13px;
+  }
+  .order-1 {
+    order: 1;
+  }
+  .order-2 {
+    order: 2;
+  }
+  #proj-2 {
+    margin: 0 16px 20px 16px;
+  }
+}
+
+@media (min-width: 1201px) {
+  .bottom-left {
+    margin-left: 10%;
+  }
+}
+
+@media (min-width: 1300px) {
+  .bottom-left {
+    margin-left: 10%;
+  }
+  .top-section-right {
+    width: 80%;
+  }
+  .top-section-left {
+    margin-left: 12%;
+  }
+}
+
+@media (min-width: 1600px) {
+  .top-section-left {
+    margin-left: 26%;
+  }
+  .top-section-right {
+    margin-right: 450px;
+  }
+  .bottom-left {
+    margin-left: 25%;
+  }
+  .bottom-right {
+    max-width: 1000px;
+  }
+  .bottom {
+    column-gap: 2%;
+  }
+}

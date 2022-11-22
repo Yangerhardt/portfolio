@@ -7,6 +7,11 @@ const portugues = () => {
     "Sou um Desenvolvedor <span>Front-End</span>.";
   document.querySelector("h4").innerHTML =
     "Bem-vindo ao meu <span>portfólio</span>!";
+  document.querySelector(".modal-redireciona-proj").innerHTML = "Ver projeto"
+  const seeMore = document.querySelectorAll(".span-open-modal")
+  for (let line of seeMore) {
+    line.innerHTML = "Ver mais"
+  }
 
   document.querySelector("#about").innerHTML = "Sobre mim";
   document.querySelector(".bottom-left-text").innerHTML =
@@ -24,20 +29,17 @@ const portugues = () => {
     plataforma de organização das trilhas de estudo disponíveis: Fullstacks,
     QA e UX/UI. Para isso, trabalhamos em conjunto com a UX/UI para entender
     as dores dos usuários e, assim, modelar um projeto melhor.
-    <br /><span class="span-open-modal">Ver mais</span>
     `
   document.querySelector("#proj-2").innerHTML =
     `Criado com o objetivo de criação de uma landing page para apresentar a marca e
     seus produtos. Além disso, deveria conter informações sobre a personalização dos produtos 
     e amostras deles. Com o tempo, ela se tornaria uma página funcional de comércio eletrônico,
     com cadastro, login e checkout.
-    <br /><span class="span-open-modal">Ver mais</span>
     `;
   document.querySelector("#proj-3").innerHTML = 
     `Projetado para funcionar como um controlador de fluxo de entrada e saída de dinheiro, 
     tornando possível adicionar e remover qualquer transação. Todos os dados são
     armazenado no navegador, para que não seja perdido quando a página é atualizada.
-    <br /><span class="span-open-modal">Ver mais</span>
     `;
 
     // Para que o botão de "Veja mais" funcione:

@@ -1,4 +1,31 @@
-@media (max-width: 700px) {}
+@media (max-width: 700px) {
+  .nome-projeto-modal {
+    font-size: 24px !important;
+  }
+  .stack {
+    font-size: 12px;
+  }
+  .modal-descricao-projeto {
+    font-size: 14px;
+  }
+  #modal-projetos {
+    padding: 10px !important;
+    width: 80%;
+  }
+  .modal-img, .slide, .carousel {
+    width: 300px !important;
+    height: 250px !important;
+  }
+  .carousel-button {
+    font-size: 1rem;
+  }
+  .carousel-button.next {
+    right: calc(1rem);
+  }
+  .modal-redireciona-proj {
+    font-size: 14px;
+  }
+}
 
 
 @media (max-width: 750px) {
